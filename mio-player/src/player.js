@@ -87,7 +87,7 @@ class Player extends EventEmitter {
 	}
 
 	stop() {
-		this._musicPlayer.stopMusic();	
+		this._musicPlayer.stopMusic();
 		this.gameId++;
 	}
 
@@ -2581,7 +2581,7 @@ let audioNames = [
 	'knife_chop',
 	'mobile_phone',
 	'razor',
-	'mobile_phone',
+	'old_phone',
 	'popped_cork',
 	'water',
 	'sneeze',
